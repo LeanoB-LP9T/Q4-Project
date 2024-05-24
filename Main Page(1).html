@@ -1,0 +1,114 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: darkslateblue; 
+            height: 1000px;
+        }
+        #profile-icon {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 30px auto;
+        }
+        label {
+            font-family: Consolas;
+        }
+        .big-text {
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 20px; 
+            color: white;
+        }
+        .custom-navbar {
+            background-color: gray;
+        }
+        .navbar-brand img {
+            width: 50px; 
+            margin-right: 10px; 
+        }
+        .container-box {
+            border: 2px solid white;
+            padding: 20px;
+            margin: 30px auto;
+            width: 80%;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .description {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        .follow-us {
+            margin-top: 20px;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            border: 2px solid white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .social-media img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <a class="navbar-brand" href="">
+            <img src="lakers.jpg" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Mainpage(1).html">My Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page1.html">First Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">Second Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Mainpage(1).html">Back</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-box">
+        <img id="profile-icon" src="data:image/jpeg;base64,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">
+        <div class="big-text">MY ONLINE PORTFOLIO</div>
+        <div class="description">
+            Welcome to my online portfolio! My name is Bienn Lance J. Leano from grade 9 Topaz, Las Pinas Campus. This portfolio showcases my projects for each quarter this school year.
+        </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
